@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: full-security-check
+expected_outcome: |
+  秘密情報・プロンプトインジェクション・公開設定の3観点で、該当箇所と修正案つきの報告を重要度順に日本語で出す。ファイルは変更しない。

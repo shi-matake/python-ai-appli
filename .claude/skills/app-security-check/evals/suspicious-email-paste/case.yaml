@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: suspicious-email-paste
+expected_outcome: |
+  受信メールが指示として解釈されるリスクと、st.markdown による画像・リンク表示を通じた情報送信のリスクを、このアプリのコードに即して説明し、対策案を出す。

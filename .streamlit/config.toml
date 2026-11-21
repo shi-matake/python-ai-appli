@@ -1,0 +1,3 @@
+# このPCからだけ開けるようにする（同じWi-Fi・LANの他の端末からは開けない）
+[server]
+address = "localhost"

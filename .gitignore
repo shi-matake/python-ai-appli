@@ -1,0 +1,10 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/skills/*-workspace/
