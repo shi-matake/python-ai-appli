@@ -29,6 +29,12 @@ streamlit run app.py
 
 APIキーは https://aistudio.google.com/apikey で取得できます（画面のサイドバーから直接入力することもできます）。
 
+ローカルでは、ユーザーホームの `~/.streamlit/config.toml` に `[server]` `address = "localhost"` を書いて、このPCからだけ開けるようにしてください（`起動.bat` は起動時に指定済みです）。
+
+## クラウドで使う場合（Streamlit Community Cloud）
+
+ログイン機能がないため、APIキーは Secrets に `GEMINI_API_KEY = "..."` として登録し、**アプリの Sharing 設定で閲覧者を自分だけに限定してください**。手順は `起動方法.md` を参照してください。
+
 ## ツールの追加方法
 
 `tools.py` の `TOOLS` リストに `Tool(...)` を1つ追加し、プロンプトを組み立てる関数を書くだけで、画面に自動で反映されます。

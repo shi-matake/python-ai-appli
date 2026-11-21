@@ -1,3 +1,4 @@
-# このPCからだけ開けるようにする（同じWi-Fi・LANの他の端末からは開けない）
-[server]
-address = "localhost"
+# このファイルは GitHub 経由で Streamlit Community Cloud にも配置されるため、
+# server.address = "localhost" はここに書かない（クラウドで外部から開けなくなるおそれがある）。
+# ローカルで「このPCからだけ開ける」設定は、ユーザーホームの ~/.streamlit/config.toml と
+# 起動.bat の --server.address localhost で行っている。
